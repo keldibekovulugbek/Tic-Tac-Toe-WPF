@@ -1,0 +1,51 @@
+﻿<Page x:Class="Tic_Tac_Toe.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tic_Tac_Toe"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="324"
+       Title="Tic Tac Toe">
+
+
+    <Grid >
+        <Image Source="G:\Programming\C# Projects\Tic-Tac-Toe\Tic-Tac-Toe\resource\background.jpg" />
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100" />
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <StackPanel>
+                        <Button x:Name="btn1" Click="ClickButton" Height="80" Width="80" Margin="15 5 5 5" BorderBrush="Black" BorderThickness="3.5"/>
+                        <Button Name="btn2" Click="ClickButton"  Height="80" Width="80" Margin="15 15 5 5" BorderBrush="Black" BorderThickness="3.5"/>
+                        <Button Name="btn3"  Click="ClickButton" Height="80" Width="80" Margin="15 15 5 5 " BorderBrush="Black" BorderThickness="3.5"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <StackPanel>
+                        <Button Name="btn4" Click="ClickButton"  Height="80" Width="80" Margin="5 5 5 5" BorderBrush="Black" BorderThickness="3.5"/>
+                        <Button Name="btn5" Click="ClickButton"  Height="80" Width="80" Margin="5 15 5 5" BorderBrush="Black" BorderThickness="3.5"/>
+                        <Button Name="btn6" Click="ClickButton"  Height="80" Width="80" Margin="5 15 5 5" BorderBrush="Black" BorderThickness="3.5"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <StackPanel>
+                        <Button Name="btn7" Click="ClickButton"  Height="80" Width="80" Margin="5 5 15 5" BorderBrush="Black" BorderThickness="3.5"/>
+                        <Button Name="btn8" Click="ClickButton"  Height="80" Width="80" Margin="5 15 15 5" BorderBrush="Black" BorderThickness="3.5"/>
+                        <Button Name="btn9" Click="ClickButton"  Height="80" Width="80" Margin="5 15 15 5 " BorderBrush="Black" BorderThickness="3.5"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
