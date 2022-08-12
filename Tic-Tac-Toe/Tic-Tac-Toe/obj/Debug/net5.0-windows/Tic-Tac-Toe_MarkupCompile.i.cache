@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-G:\Programming\C# Projects\Tic-Tac-Toe\Tic-Tac-Toe\obj\Debug\net5.0-windows\
+G:\Programming\C# Projects\Tic-Tac-Toe-WPF\Tic-Tac-Toe\Tic-Tac-Toe\obj\Debug\net5.0-windows\
 Tic_Tac_Toe
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-G:\Programming\C# Projects\Tic-Tac-Toe\Tic-Tac-Toe\App.xaml
-21586367847
+G:\Programming\C# Projects\Tic-Tac-Toe-WPF\Tic-Tac-Toe\Tic-Tac-Toe\App.xaml
+2-1130517889
 
-6-308466238
+61026994941
 195-403305807
-MainWindow.xaml;Page1.xaml;
+Game.xaml;MainWindow.xaml;
 
-False
+True
 

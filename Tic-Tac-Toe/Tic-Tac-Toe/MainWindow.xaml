@@ -10,7 +10,7 @@
         xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes">
 
     <Grid>
-        <Image Source="G:\Programming\C# Projects\Tic-Tac-Toe\Tic-Tac-Toe\resource\background.jpg" />
+        <Image Source="G:\Programming\C# Projects\Tic-Tac-Toe-WPF\Tic-Tac-Toe\Tic-Tac-Toe\resource\background.jpg" />
         <StackPanel>
             <Button 
                 Content="👤 1 Player"

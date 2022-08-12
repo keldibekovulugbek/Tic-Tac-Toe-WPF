@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bTyUJDPyDmD38vIqyN0dTtTgqZrdkcfH4tzuAlrCHbfJvWBs5+YnL35KgpwLQH54S0/rR+r9Xn55yQvuRagxOg==",
+  "dgSpecHash": "GAUxzzFJ/NXxRINVSro08l96rNgrvE4nbcUa3i402Nwb2wZyZaTCxWXGCiWxx737Y5tiBax/GVJ9jD9G8hQC/w==",
   "success": true,
-  "projectFilePath": "G:\\Programming\\C# Projects\\Tic-Tac-Toe\\Tic-Tac-Toe\\Tic-Tac-Toe.csproj",
+  "projectFilePath": "G:\\Programming\\C# Projects\\Tic-Tac-Toe-WPF\\Tic-Tac-Toe\\Tic-Tac-Toe\\Tic-Tac-Toe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\keldi\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
     "C:\\Users\\keldi\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512"

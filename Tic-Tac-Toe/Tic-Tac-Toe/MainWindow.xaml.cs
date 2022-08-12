@@ -21,6 +21,7 @@ namespace Tic_Tac_Toe
     public partial class MainWindow : Window
     {
         public int Person = 0;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -28,12 +29,16 @@ namespace Tic_Tac_Toe
         private void SinglePlayer_Click(object sender, RoutedEventArgs e)
         {
             Person = 1;
-            Main.Content = new Page1();
+            var game = new Game(Person);
+            this.Close();
+            game.Show();
         }
         private void SecondPlayer_Click(object sender, RoutedEventArgs e)
         {
             Person = 2;
-            Main.Content = new Page1();
+            var game = new Game(Person);
+            this.Close();
+            game.Show();
         }
     }
 }
